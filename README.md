@@ -12,7 +12,8 @@ Uporabnik si najprej ustvari račun z uporabniškim imenom in geslom, ki se upor
 ---
 
 ## API strežnik
-**Repozitorij:** https://lkn7.fe.uni-lj.si/janvr/iot_backend\
+**Repozitorij:** https://github.com/janvr1/zrak_backend
+
 API storitve je sestavljen iz treh končnih točk - endpoint-ov. To so `/users`, `/devices` in `/measurements`. Na vsako izmed končnih točk lahko pošiljemo zahtevek `GET`, `POST`, `PUT` ali `DELETE` preko katerih lahko prejemamo, dodajamo, spreminjamo ali pa izbrišemo podatke na strežniku. Na voljo je tudi admin vmesnik, preko katerega lahko administrator storitve upravlja z uporabniki, napravami in meritvami na strežniku. Podrobnejši opis se nahaja v repozitoriju.
 
 ### Screenshots
@@ -24,7 +25,8 @@ Admin vmesnik:\
 ---
 
 ## Spletna aplikacija
-**Repozitorij:** https://lkn7.fe.uni-lj.si/janvr/iot_web_app\
+**Repozitorij:** https://github.com/janvr1/zrak_web
+
 Spletna aplikacija omogoča dostop do vseh funkcionalnosti API-ja z izjemo dodajanja novih meritev. Uporabnik lahko preko aplikacije upravlja s svojim uporabniškim računom, dodaja/ureja/briše naprave, ki so vezane na njegov račun in pregleduje/briše meritve posameznih naprav.
 
 ### Screenshots
@@ -38,7 +40,8 @@ Pregled meritev:\
 ---
 
 ## Mobilna aplikacija
-**Repozitorij:** https://lkn7.fe.uni-lj.si/janvr/iot_android\
+**Repozitorij:** https://github.com/janvr1/zrak_android
+
 Mobilna aplikacija je bolj preprosta od spletne aplikacije in omogoča dostop samo do `GET` funkcionalnosti API-ja - torej pregledovanje naprav in meritev ne pa tudi dodajanja/urejanje le-teh.
 
 ### Screenshots
@@ -49,5 +52,6 @@ Mobilna aplikacija je bolj preprosta od spletne aplikacije in omogoča dostop sa
 ---
 
 ## ESP knjižnica
-**Repozitorij:** https://lkn7.fe.uni-lj.si/janvr/iot_esp_lib\
+**Repozitorij:** https://lkn7.fe.uni-lj.si/janvr/iot_esp_lib
+
 Knjižnica je namenjena mikrokrmilnikom ESP8266 in ESP32 in omogoča preprosto pošiljanje meritev na strežnik (`POST`zahtevek na `/measurements`). Primer uporabe je na voljo v repozitoriju.
